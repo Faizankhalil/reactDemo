@@ -1,8 +1,8 @@
 .App {
-  text-align: center;
+  background: rgb(246, 244, 241);
 }
 
-.App-logo {
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -35,4 +35,70 @@
   to {
     transform: rotate(360deg);
   }
+} */
+.customNav{
+  background:white;
+  height: 90px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.iconStyle{
+  background-color: #f15953;
+  padding: .9rem;
+  border-radius: 50%;
+  border: 5px solid #fff;
+  transition: all .3s ease;
+  width: 70px;
+  margin-top: -37px;
+}
+.textStyle{
+  font-weight:bold;
+  color: #c1bfbb;
+  padding: 0.5em;
+}
+.menuStyle{
+    float: right;
+    margin: 25px;
+}
+
+.menuPagestyle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.divBuuton{
+    width: 345px;
+    margin-top: 32px;
+}
+.textBelowButton{
+       
+        width: 220px;
+        text-align: center;
+        padding: 0.6em;
+        color: #525252;
+        font-size: 14px;
+        font-weight: 500;
+        margin: auto;
+}
+.btnStyle{
+    border-radius: 7px;
+    background-color: #f15953;
+    border: none;
+    height: 54px;
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    width: 100%;
+    box-shadow: 0 3px 6px 0 rgba(0,0,0,.16)
+}
+.imgTextStyle{
+    font-size: 30px;
+    font-weight: bold;
+}
+.textdiv{
+  width: 240px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 118px;
 }
